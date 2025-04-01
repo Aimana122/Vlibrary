@@ -12,9 +12,10 @@
         body {
             font-family: 'Segoe UI', sans-serif;
             background-image:url('fon1.jfif');
-			background-size: cover; /* Заполняет всю область без растяжения (обрезает края) */
-			background-position: center; /* Центрирует изображение */
-			background-repeat: no-repeat;
+		background-size: cover; /* Заполняет всю область без растяжения (обрезает края) */
+		background-position: center; /* Центрирует изображение */
+		background-repeat: no-repeat;
+		
 			
         }
 
