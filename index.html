@@ -130,7 +130,7 @@
 				 <strong>Questions and Queries</strong>
                 <p>To provide answers to the questions from the instructions, I created a set of database queries (spreadsheet formulas) to extract the following data:
 				 <ul>
-				 <li><strong>1. Find the books that are currently available.</strong>Formula used: =FILTER(BookTable[Title], BookTable[Available] = "Yes")</li>
+				 <li><strong>1. Find the books that are currently available.</strong>Formula used: =FILTER(BookTable[Title], BookTable[Available] = "TRUE")</li>
 				 <li><strong>2. Identify the most checked-out books.</strong> Formula used: =SORT(BookTable[Title], CheckoutTable[Book_ID], TRUE)</li>
 				 <li><strong>3. List authors with the most checked-out books.</strong>Formula used: =SORT(AuthorTable[Author], COUNTIF(CheckoutTable[Author_ID], AuthorTable[Author_ID]), TRUE)</li>
 				 <li><strong>4. Find books that have not been checked out in the past month.</strong> Formula used: =FILTER(BookTable[Title], BookTable[Last_Checkout_Date] < TODAY() - 30)</li>
