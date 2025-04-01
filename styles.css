@@ -11,7 +11,11 @@
 
         body {
             font-family: 'Segoe UI', sans-serif;
-            background: #f5f6fa;
+            background-image:url('fon1.jfif');
+			background-size: cover; /* Заполняет всю область без растяжения (обрезает края) */
+			background-position: center; /* Центрирует изображение */
+			background-repeat: no-repeat;
+			
         }
 
         .container {
@@ -61,7 +65,7 @@
         }
 
         .data-card {
-            background: white;
+            background: #bdbdbd;
             border-radius: 12px;
             padding: 1.5rem;
             box-shadow: 0 3px 6px rgba(0,0,0,0.1);
@@ -98,6 +102,6 @@
         }
 
         .filter-btn.active {
-            background: var(--secondary);
+            background: #203a27;
             color: white;
         }
